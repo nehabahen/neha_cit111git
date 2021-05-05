@@ -34,7 +34,7 @@ public class FortuneTeller {
 		System.out.println("Third Reminder: " + thirdRemainder);
 		String makingThreeDigitNum = firstRemainder+ ""+secondRemainder+""+thirdRemainder;
 		System.out.println("Your Lucky Reminder Number: " + makingThreeDigitNum);
-		
+	
 		
 		//futurePrediction();
 		
@@ -42,7 +42,7 @@ public class FortuneTeller {
 		switch( makingThreeDigitNum){
 		case "000": System.out.println("This is a great day for expressions your ideas and feelings.");
 			System.out.println("Share your hopes and concerns, dreams and aspirations with others. ");
-			//playAgain();
+			
 		break;
 		case "111":
 			System.out.println("Romance is in the air.");
@@ -55,7 +55,7 @@ public class FortuneTeller {
 		
 		case "001": 
 			System.out.println("You will experience a deep emotional attachment with your loved ones");
-		//playAgain();
+		
 		break;
 		case "011":
 			System.out.println("you will win big lottery today, GOOD LUCK");
@@ -189,26 +189,7 @@ public class FortuneTeller {
 		}
 		return 0;
 	}//close start clock 
-	
-	public static void playAgain() {
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.println("Do you want to play Again?");
-		System.out.println("hit 1 for Yes, no No for 2");
-		int inputCommand = sc.nextInt();
-		
-		if(inputCommand==1) {
-		System.out.println(" Thank you for playing again. \n Let's start game");	
-		
-		}//close if
-		else {
-		System.out.println("Thank you, have a good one ");	
-		}//close else
-	}// close play again
 
-		
-		
-	
 
 }//close class 
 
